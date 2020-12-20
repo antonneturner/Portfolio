@@ -18,6 +18,12 @@
     integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
   <link rel="stylesheet" href="style.css">
 </head>
+<style>
+  p {
+    margin: 15px;
+
+  }
+</style>
 
 <body>
 
@@ -28,6 +34,10 @@
       aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
+
+
+    </div>
+
 
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav mr-auto">
@@ -64,39 +74,90 @@
   </nav>
 
   <!-- About me -->
+
+
   <p> Hello my name is Anton Turner. I am a full stack web developer who is interested in technology and innovation.
     I am a very talented and effiencent indivdual who prides myself on always learning and improving.
   </p>
 
   <!-- Added image -->
-  <img src="./images/my-picture.jpg" height="300px" width="250px" alt="this is a picture of me" />
+  <img class="img src">
+
+
+  <div class="row">
+    <div class="col-sm-3">
+      <img class="w-100" src="./images/my-picture.jpg" height="300px" width="250px" alt="this is a picture of me" />
+    </div>
+
+
+
+  </div>
+
 
   <div class="card">
     <div class="card-body">
+      <div class="row">
+        <div class="col-sm-4">
 
-      <!-- project 1 -->
-      <div class="card" style="width: 18rem;">
-        <img src="..." class="card-img-top" alt="...">
-        <div class="card-body">
-          <p class="card-text">Project 1</p>
+          <!-- project 1 -->
+          <div class="card" style="width: 18rem;">
+            <img src="./images/Project1.png" class="card-img-top" alt="project 1">
+            <div class="card-body">
+              <p class="card-text">Project 1</p>
+            </div>
+
+          </div>
+
+        </div>
+        <div class="col-sm-4">
+          <!-- Day planner  add images -->
+          <div class="card" style="width: 18rem;">
+            <img src="./images/Dayplanner.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">Day Planner</p>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col-sm-4">
+          <!-- Weather Dashboard -->
+          <div class="card" style="width: 18rem;">
+            <img src="./images/Weatherdash.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">Weather Dashboard</p>
+            </div>
+          </div>
         </div>
       </div>
 
-      <!-- Day planner  add images -->
-      <div class="card" style="width: 18rem;">
-        <img src="./images/" class="card-img-top" alt="...">
-        <div class="card-body">
-          <p class="card-text">Day Planner</p>
+      <div class="row mt-5">
+        <div class="col-sm-4">
+          <!-- project 1 -->
+          <div class="card" style="width: 18rem;">
+            <img src="./images/Project1.png" class="card-img-top" alt="project 1">
+            <div class="card-body">
+              <p class="card-text">Project 1</p>
+            </div>
+
+          </div>
         </div>
+        <div class="col-sm-4">
+          <!-- project 1 -->
+          <div class="card" style="width: 18rem;">
+            <img src="./images/Project1.png" class="card-img-top" alt="project 1">
+            <div class="card-body">
+              <p class="card-text">Project 1</p>
+            </div>
+
+          </div>
+        </div>
+        <div class="col-sm-4"></div>
       </div>
 
-      <!-- Weather Dashboard -->
-      <div class="card" style="width: 18rem;">
-        <img src="..." class="card-img-top" alt="...">
-        <div class="card-body">
-          <p class="card-text">Weather Dashboard</p>
-        </div>
-      </div>
+
+
+
 
     </div>
   </div>
